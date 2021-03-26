@@ -1,7 +1,9 @@
-median:
+single_value:
   gross_rent: B25064_001
   housing_cost: B25064_001
   hh_inc: B19013_001
+  pop: B01003_001
+  gini: B19083_001
 categorical:
   race:
     total: B02001_001
@@ -53,8 +55,3 @@ categorical:
     v5: B25009_015
     v6: B25009_016
     v7: B25009_017
-total:
-  pop: B01003_001
-other:
-  gini: B19083_001
-  
