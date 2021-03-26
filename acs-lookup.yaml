@@ -4,6 +4,7 @@ single_value:
   hh_inc: B19013_001
   pop: B01003_001
   gini: B19083_001
+  latino: B03003_003
 categorical:
   race:
     total: B02001_001
