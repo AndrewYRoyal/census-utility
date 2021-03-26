@@ -1,0 +1,59 @@
+median:
+  gross_rent: B25064_001
+  housing_cost: B25064_001
+  hh_inc: B19013_001
+categorical:
+  race:
+    total: B02001_001
+    white: B02001_002
+    black: B02001_003
+    asian: B02001_005
+  heating:
+    total: B25040_001
+    gas: B25040_002
+    elct: B25040_004
+    solar: B25040_008
+  language:
+    total: C16001_001
+    english: C16001_002
+  employment:
+    total: B23025_001
+    labor_force: B23025_002
+  citizenship:
+    total: B99051_001
+    foreign: B99051_005
+  social_security:
+    total: B19055_001
+    yes: B19055_002
+  suppl_security:
+    total: B09010_001
+    yes: B09010_002
+  live_in_gparents:
+    total: B10063_001
+    no: B10063_007
+  retire_inc:
+    total: B19059_001
+    yes: B19059_002
+  tenure:
+    total: B25014_001
+    renter: B25014_008
+  rental_room_occupancy:
+    total: B25014_008
+    v0_0p5: B25014_009
+    v0p5_1: B25014_010
+    v1_1p5: B25014_011
+    v1p5_2: B25014_012
+    v2_inf: B25014_013
+  rental_hh_size:
+    total: B25009_010
+    v1: B25009_011
+    v2: B25009_012
+    v3: B25009_013
+    v4: B25009_014
+    v5: B25009_015
+    v6: B25009_016
+    v7: B25009_017
+total:
+  pop: B01003_001
+other:
+  gini: B19083_001
