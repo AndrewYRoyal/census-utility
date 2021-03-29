@@ -5,6 +5,7 @@ single_value:
   pop: B01003_001
   gini: B19083_001
   latino: B03003_003
+  male: B23001_002
 categorical:
   race:
     total: B02001_001
@@ -56,3 +57,42 @@ categorical:
     v5: B25009_015
     v6: B25009_016
     v7: B25009_017
+  male_employment_16_19:
+    total: B23001_003
+    labor_force: B23001_004
+  male_employment_20_21:
+    total: B23001_010
+    labor_force: B23001_011
+  male_employment_22_24:
+    total: B23001_017
+    labor_force: B23001_018
+  male_employment_25_29:
+    total: B23001_024
+    labor_force: B23001_025
+  male_employment_30_34:
+    total: B23001_031
+    labor_force: B23001_032
+  male_employment_35_44:
+    total: B23001_038
+    labor_force: B23001_039
+  male_employment_45_54:
+    total: B23001_045
+    labor_force: B23001_046
+  male_employment_55_59:
+    total: B23001_052
+    labor_force: B23001_053
+  male_employment_60_61:
+    total: B23001_059
+    labor_force: B23001_060
+  male_employment_62_64:
+    total: B23001_066
+    labor_force: B23001_067
+  male_employment_65_59:
+    total: B23001_073
+    labor_force: B23001_074
+  male_employment_70_74:
+    total: B23001_078
+    labor_force: B23001_079
+  male_employment_75_inf:
+    total: B23001_083
+    labor_force: B23001_084
