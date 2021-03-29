@@ -96,3 +96,8 @@ categorical:
   male_employment_75_inf:
     total: B23001_083
     labor_force: B23001_084
+  poverty:
+    total: B06012_001
+    below_100: B06012_002
+    below_100_149: B06012_003
+    below_150_inf: B06012_004
