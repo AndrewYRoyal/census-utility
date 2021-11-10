@@ -1,0 +1,9 @@
+### Description
+Utility for downloading and formatting American Community Survey data (ACS).
+
+### Requirements
+``install.packages('tidycensus')``
+
+``install.packages('data.table')``
+
+``install.packages('magrittr')``

@@ -1,0 +1,26 @@
+{
+    "id": "9CCA5FA9",
+    "path": "C:/Users/andrew/Desktop/census-utility/inspect.R",
+    "project_path": "inspect.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1636561110252.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "27,0",
+        "scrollLine": "20"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1636582736,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1636582736106,
+    "read_only": false,
+    "read_only_alternatives": []
+}

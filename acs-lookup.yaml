@@ -101,3 +101,22 @@ categorical:
     v0_100: B06012_002
     v100_149: B06012_003
     v150_inf: B06012_004
+  education:
+    total: B15003_001
+    no_schooling: B15003_002
+    bachelors: B15003_022
+    masters: B15003_023
+    professional: B15003_024
+    doctoral: B15003_025
+  computers:
+    total: B28010_001
+    desktop_only: B28010_004
+    smartphone_only: B28010_006
+    none: B28010_007
+  internet:
+    total: B28011_001
+    dial_up: B28011_003
+    broadband: B28011_004
+    satellite: B28011_005
+    none: B28011_008
+

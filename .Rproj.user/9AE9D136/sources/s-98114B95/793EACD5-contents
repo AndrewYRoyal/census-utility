@@ -1,0 +1,19 @@
+### Description
+Utility for downloading and formatting American Community Survey data (ACS).
+
+### Requirements
+```
+install.packages('tidycensus')
+install.packages('data.table')
+install.packages('magrittr')
+install.packages('magrittr')``
+
+```
+
+
+
+
+
+single_value_dat = download_acs(census_lookup$single_value, county = NULL) %>%
+  dcast(fips ~ variable, value.var = 'value')
+setkey(single_value_dat, fips)

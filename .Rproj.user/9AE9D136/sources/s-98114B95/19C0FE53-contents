@@ -1,0 +1,112 @@
+single_value:
+  gross_rent: B25064_001
+  housing_cost: B25064_001
+  hh_inc: B19013_001
+  pop: B01003_001
+  gini: B19083_001
+  latino: B03003_003
+  male: B23001_002
+categorical:
+  race:
+    total: B02001_001
+    white: B02001_002
+    black: B02001_003
+    asian: B02001_005
+  heating:
+    total: B25040_001
+    gas: B25040_002
+    elct: B25040_004
+    solar: B25040_008
+  language:
+    total: C16001_001
+    english: C16001_002
+  employment:
+    total: B23025_001
+    labor_force: B23025_002
+  citizenship:
+    total: B99051_001
+    foreign: B99051_005
+  social_security:
+    total: B19055_001
+    yes: B19055_002
+  suppl_security:
+    total: B09010_001
+    yes: B09010_002
+  live_in_gparents:
+    total: B10063_001
+    no: B10063_007
+  retire_inc:
+    total: B19059_001
+    yes: B19059_002
+  tenure:
+    total: B25014_001
+    renter: B25014_008
+  rental_room_occupancy:
+    total: B25014_008
+    v0_0p5: B25014_009
+    v0p5_1: B25014_010
+    v1_1p5: B25014_011
+    v1p5_2: B25014_012
+    v2_inf: B25014_013
+  rental_hh_size:
+    total: B25009_010
+    v1: B25009_011
+    v2: B25009_012
+    v3: B25009_013
+    v4: B25009_014
+    v5: B25009_015
+    v6: B25009_016
+    v7: B25009_017
+  male_employment_16_19:
+    total: B23001_003
+    labor_force: B23001_004
+  male_employment_20_21:
+    total: B23001_010
+    labor_force: B23001_011
+  male_employment_22_24:
+    total: B23001_017
+    labor_force: B23001_018
+  male_employment_25_29:
+    total: B23001_024
+    labor_force: B23001_025
+  male_employment_30_34:
+    total: B23001_031
+    labor_force: B23001_032
+  male_employment_35_44:
+    total: B23001_038
+    labor_force: B23001_039
+  male_employment_45_54:
+    total: B23001_045
+    labor_force: B23001_046
+  male_employment_55_59:
+    total: B23001_052
+    labor_force: B23001_053
+  male_employment_60_61:
+    total: B23001_059
+    labor_force: B23001_060
+  male_employment_62_64:
+    total: B23001_066
+    labor_force: B23001_067
+  male_employment_65_59:
+    total: B23001_073
+    labor_force: B23001_074
+  male_employment_70_74:
+    total: B23001_078
+    labor_force: B23001_079
+  male_employment_75_inf:
+    total: B23001_083
+    labor_force: B23001_084
+  poverty:
+    total: B06012_001
+    v0_100: B06012_002
+    v100_149: B06012_003
+    v150_inf: B06012_004
+  education:
+    total: B15003_001
+    no_schooling: B15003_002
+    bachelors: B15003_022
+    masters: B15003_023
+    professional: B15003_024
+    doctoral: B15003_025
+    
+    

@@ -1,0 +1,26 @@
+{
+    "id": "514BAE0C",
+    "path": "C:/Users/andrew/Desktop/census-utility/acs-lookup.yaml",
+    "project_path": "acs-lookup.yaml",
+    "type": "yaml",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1636563751753.0,
+    "source_on_save": false,
+    "relative_order": 3,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "109,11",
+        "scrollLine": "95"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1636582439,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1636582439118,
+    "read_only": false,
+    "read_only_alternatives": []
+}

@@ -1,0 +1,49 @@
+### Description
+Utility for downloading and formatting American Community Survey data (ACS).
+
+### Requirements
+Packages:
+```
+install.packages('tidycensus')
+install.packages('data.table')
+install.packages('magrittr')
+install.packages('yaml')
+```
+Requires registering api.census key with tidycensus.
+
+### Example
+
+Search single-value census block-group for California (Default)
+
+```
+library(data.table)
+library(magrittr)
+library(tidycensus)
+library(yaml)
+source('utility.R')
+
+census_lookup = read_yaml('acs-lookup.yaml')
+
+single_value_dat = download_acs(census_lookup$single_value, county = NULL) %>%
+  dcast(fips ~ variable, value.var = 'value')
+```
+```
+print(single_value_dat)
+               fips gini gross_rent hh_inc latino male  pop
+    1: 060014001001   NA       3501 219861    118   NA 3120
+    2: 060014002001   NA       2360 237500     96   NA  990
+    3: 060014002002   NA       2156 162583     78   NA 1017
+    4: 060014003001   NA       1848 183482     75   NA 1134
+    5: 060014003002   NA       1784 101736     98   NA 1237
+   ---                                                     
+23208: 061150410005   NA         NA     NA     79   NA  444
+23209: 061150411001   NA       1136  61125    184   NA 1147
+23210: 061150411002   NA       1317  50625    145   NA 1472
+23211: 061150411003   NA         NA     NA      0   NA  577
+23212: 061150411004   NA         NA  57831     62   NA  926
+
+```
+
+
+
+

@@ -1,0 +1,39 @@
+library(data.table)
+library(magrittr)
+library(tidycensus)
+library(yaml)
+source('utility.R')
+# tidycensus::census_api_key('12f8af5e07b4ffbb235bc2e2af9402f2edf1a660', install = TRUE)
+
+census_lookup = read_yaml('acs-lookup.yaml')
+vars = tidycensus::load_variables(2019, dataset = 'acs5') %>%
+  as.data.table
+
+# 
+# concepts = c(
+#   'POPULATION UNDER 18 YEARS BY AGE',
+#   'HOUSEHOLDS BY TYPE',
+#   'NUMBER OF EARNERS IN FAMILY',
+#   'DETAILED OCCUPATION FOR THE FULL-TIME, YEAR-ROUND CIVILIAN EMPLOYED POPULATION 16 YEARS AND OVER',
+#   'TYPES OF COMPUTERS IN HOUSEHOLD',
+#   'PRESENCE AND TYPES OF INTERNET SUBSCRIPTIONS IN HOUSEHOLD',
+#   'PRESENCE OF A COMPUTER AND TYPE OF INTERNET SUBSCRIPTION IN HOUSEHOLD',
+#   'COMPUTERS IN HOUSEHOLD',
+#   'INTERNET SUBSCRIPTIONS IN HOUSEHOLD',
+#   'ALLOCATION OF HOUSEHOLD COMPUTER TYPE',
+#   'ALLOCATION OF HOUSEHOLD INTERNET SUBSCRIPTION TYPE')
+# vars[concept == concepts[3]]
+# vars[concept == 'COMPUTERS IN HOUSEHOLD'] %>% View
+# vars[concept == 'INTERNET SUBSCRIPTIONS IN HOUSEHOLD'] %>% View
+
+# test_dat = download_acs_categorical(
+#   census_lookup$categorical[['internet']], 
+#   county = NULL, 
+#   geography = 'tract') 
+# test_dat[, value:= round(100 * value / total, 3)]
+# test_dat[, .(value = mean(value, na.rm = TRUE), na = mean(is.na(value))), by = 'response']
+
+# quantile(test_dat[response == 'none']$value, 0:100 / 100, na.rm = TRUE)
+
+
+
